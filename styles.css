@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+ }
+
+ body {
+   background-color:rgb(240, 240, 240);;
+ }
+
+ .container {
+    display: flex;
+ }
+
+
+ /* left side */
+
+ .left{
+   background-image: url("./odin\ assets/image.jpg");
+   background-position: center;
+   background-size: auto;
+   background-repeat: no-repeat;
+ }
+
+ /* contained in a container */
+ .logo-container {
+   display: flex;
+   justify-content: center;
+   width: 40vw;
+   height: 95vh;
+ }
+
+ .logo-bg-color{
+   background-color: rgba(0,0,0,.5);
+   height: 10vh;
+   width: 40vw;
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .logo {
+   height: 100px;
+   padding: 10px;
+ }
+
+ .sign-up {
+   color: white;
+ }
+
+ .photo-desc {
+   height: 5vh;
+   color: white;
+   text-align: right;
+   margin-right: 15px;
+ }
+
+
+/* right side */
+
+ .right{
+    margin-top: 20vh;
+ }
+
+.right > .brief-info {
+   margin-left: 10px; 
+   font-size: 1.5rem;
+}
+
+.right > .intro-ps {
+   margin-top:10px;
+   margin-left: 10px;
+   font-size: 1.5rem;
+}
+
+label {
+    display: block;
+}
+
+
+/* form */
+
+.form-shadow{
+   padding-top:20px;
+   margin-top:50px;
+   padding-bottom:20px;
+   margin-bottom: 20px;
+   box-shadow: 0px 2px 6px gray;
+   background-color: white;
+}
+
+.form-shadow > h1 {
+  margin-left: 10px;
+}
+
+.form-container {
+   display: flex;
+   padding: 10px;
+   font-size: 1.3rem;
+}
+
+.left-form > input {
+   padding: 5px 0px;
+   font-size: large;
+   text-indent: 4px;
+   outline: none;
+}
+
+.right-form{
+    margin-left: 20px;
+    margin-top: auto;
+    
+}
+
+.right-form > input {
+   padding:  5px 0px;
+   font-size: large;
+   text-indent: 4px;
+   outline: none;
+}
+
+input:focus {
+   border: 2px solid rgb(248, 123, 123);
+   border-radius: 5px;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 7px;
+    color: white;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover{
+   background-color: #435236
+}
+
+.login-link {
+   margin-left: 10px;
+   margin-top: 10px;
+   font-size: 1.2rem;
+}
