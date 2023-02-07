@@ -8,8 +8,13 @@
  }
 
  body {
+<<<<<<< HEAD
    background-color:rgb(240, 240, 240);;
    /* another changes in code for the restore lang galing sa repo */
+=======
+   /* background-color:rgb(240, 240, 240);; */
+   background-color:purple;
+>>>>>>> b47c683309ae9c23ceb6a3befc3badd6b98f9764
  }
 
  .container {
